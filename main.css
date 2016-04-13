@@ -1,0 +1,47 @@
+/*--------------------------------------
+*          Base                        
+--------------------------------------*/
+body{
+	font-family: Arial;
+}
+main{
+	max-width: 800px;
+	margin: 0 auto;
+}
+ol{
+	list-style-type: none;
+}
+
+/*--------------------------------------
+*          hero                        
+--------------------------------------*/
+.hero{
+	background-color: #303f9f;
+	padding:35px;
+}
+.logo{
+	color: #fff;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+}
+.main-header p a{
+	margin-bottom: 5%;	
+	color: #ff4081;	
+}
+.news-list-item{
+	border-bottom: 1px solid #b6b6b6;
+	font-size: 20px;
+	padding-bottom: 2%;
+	margin-bottom: 2%;
+}
+.news-details{
+	padding-top: 10px;
+}
+.news-details li{
+	display: inline;
+	font-size: 15px;
+}
+.news-details a{
+	color: #ff4081;
+}
