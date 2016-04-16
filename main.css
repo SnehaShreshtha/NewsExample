@@ -3,10 +3,13 @@
 --------------------------------------*/
 body{
 	font-family: Arial;
+    color: #303f9f;
 }
-main{
+.para , main{
 	max-width: 800px;
 	margin: 0 auto;
+	padding-top:5px;
+	padding-left:35px;
 }
 ol{
 	list-style-type: none;
@@ -44,4 +47,24 @@ ol{
 }
 .news-details a{
 	color: #ff4081;
+}
+main a:hover , main a:active {
+	color:#303f9f;
+}
+form{
+	margin:5px 5px;
+	font-size: 15px;
+	font-weight: bold;
+	display:none;
+}
+input{
+	display: block;
+	padding:5px 5px;
+	width:100%;
+	font-size:20px;
+	border:1px solid #212121;
+	border-radius:5px;
+}
+.show-form{
+	display: block;
 }
